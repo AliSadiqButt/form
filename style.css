@@ -1,0 +1,47 @@
+/* * {
+    margin: 120;
+    padding: 120;
+    box-sizing: border-box;
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url(images/mitchell-orr-oTE1p2Awp3I-unsplash.jpg);
+    background-attachment: fixed;
+}
+
+.wrapper{
+    /* background: transparent;
+    color: white; */
+    background-color: grey;
+    width: auto;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.wrapper .btn1 {
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.wrapper .btn {
+    border-radius: 20px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    
+}
+
+.wrapper p {
+    text-align: center;
+}
